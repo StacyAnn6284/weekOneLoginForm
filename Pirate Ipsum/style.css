@@ -1,0 +1,50 @@
+html {
+  background-color: lightgray;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.photos {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 5px 5px #999;
+  color: #333;
+}
+
+.shipPhoto {
+  float: right;
+  transform: rotate(5deg);
+  margin-left: 40px;
+}
+
+.treasurePhoto {
+  float: left;
+  transform: rotate(355deg);
+  margin-right: 40px;
+}
+.photoCaption {
+  margin: 5px;
+}
+
+img {
+  width: 280px;
+}
+
+h1 {
+  font-family: "Seaweed Script", cursive;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+p {
+  margin: 20px;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 15px;
+}
